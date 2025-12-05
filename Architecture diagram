@@ -1,0 +1,23 @@
+                               +---------------------+
+                               |  Intelligent Router |
+                               |  (flow profiler)    |
+                               +----------+----------+
+                                          |
+                                          | flow metadata
+                                          |
++------------+     USB HID    +---------- v ---------+     Anomaly Scores   +--------------------+
+| HID Device |  ---------->   |   Client Host        |  ------------------>  | Central Logger &   |
+| (benign)   |                |   (OS)               |                      | Fusion Module      |
++------------+                +----------------------+                      +--------+-----------+
+                                      |    ^
+                                      |    | host-level IKIs & descriptors
+                                      |    |
+                                 +----v----+ 
+                                 | Host    |
+                                 | Agent   |
+                                 | (monitors IKIs, |
+                                 | computes host_score) |
+                                 +-------------------+
+                                                   |
+                                                   v
+                                               Dashboard
