@@ -1,0 +1,32 @@
+Title: HACKBACK: Host HID Monitor + Intelligent Router
+Author: dfyR433
+Division: Computer Science / Cybersecurity
+Event: ISEF 2026
+
+Top-left: Abstract
+A hybrid system combining host-level HID monitoring and a network profiler shows improved detection versus single-layer defenses. Experiments were run on owned hardware with only benign automation.
+
+Left column: Problem
+- HID devices can inject keystrokes with little verification.
+- Network-only defenses miss local actions.
+- Goal: combine host + network signals for detection.
+
+Center column: System Diagram (replace with architecture_diagram.png)
+[HID Device] → [Client Host] → [Host Agent] → [Fusion & Logger] ← [Intelligent Router] ← network
+
+Right column: Methods
+- Baseline: 100 human typing sessions
+- Automation: 300 benign automation runs
+- Metrics: TPR, FPR, latency, ROC AUC
+
+Bottom-left: Results (SIMULATED EXAMPLE)
+- Host AUC: 0.89
+- Router AUC: 0.66
+- Hybrid AUC: 0.94
+- Median latency (ms): Host 80 ms, Router 300 ms, Hybrid 75 ms
+
+Bottom-right: Conclusion & Ethics
+Combining host and network signals improves detection and reduces latency. All tests run in controlled environment; HID actions are harmless typing; no exploit code is included.
+
+Footer: Reproducibility
+Repo: starter files include host_agent.py, router_profiler.py, orchestrator.py, dummy_data.csv, research_paper.md
