@@ -1,0 +1,9 @@
+run_id,condition,host_id,start_time,duration_ms,mean_iki_ms,ground_truth,host_score,router_score,fused_score
+B001,baseline_human,host1,2025-12-05T00:00:01,2.30,201.5,0,0.02,0.01,0.02
+B002,baseline_human,host2,2025-12-05T00:00:10,1.90,187.2,0,0.04,0.02,0.05
+B003,baseline_human,host3,2025-12-05T00:00:20,2.10,192.6,0,0.03,0.01,0.03
+A001,benign_automation,host1,2025-12-05T00:01:00,0.29,31.2,1,0.95,0.28,0.96
+A002,benign_automation,host2,2025-12-05T00:01:20,0.33,28.7,1,0.97,0.30,0.98
+A003,benign_automation,host3,2025-12-05T00:01:40,0.31,29.9,1,0.96,0.29,0.97
+B004,baseline_human,host1,2025-12-05T00:02:10,2.00,180.4,0,0.05,0.02,0.06
+A004,benign_automation,host4,2025-12-05T00:02:33,0.27,26.8,1,0.98,0.31,0.99
