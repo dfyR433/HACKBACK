@@ -1,6 +1,4 @@
-Conclusion — USB HID Automation
+Project Title: USB HID Automation System for Cybersecurity Education
 
-The USB HID automation component of this project demonstrated that microcontrollers such as the ESP32-S2 can reliably emulate human-interface devices to execute scripted system interactions. 
-Through the development of a custom HID control framework and its evaluation within a controlled test environment, the study illustrated how unauthorized HID devices may introduce significant security risks, including rapid command injection and system manipulation. 
-The findings emphasize the need for strengthened device-level access policies, USB port monitoring, and user awareness to prevent misuse. 
-Overall, the module provides a safe and reproducible platform for analyzing physical-layer attack vectors and supports the broader goal of advancing defensive cybersecurity research and education.
+Project Summary:
+This project presents a USB Human Interface Device (HID) automation system designed to demonstrate cybersecurity concepts and ethical hacking techniques in a controlled, educational environment. The system emulates keyboard and mouse inputs to automate tasks, simulate attacks, and test security responses without compromising real networks or devices. By providing a safe platform for experimenting with automation and penetration testing, this project promotes hands-on learning in computer security, programming, and embedded systems. The results highlight the potential of HID-based tools for cybersecurity education while emphasizing ethical and responsible use.
