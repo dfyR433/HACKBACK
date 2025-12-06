@@ -1,4 +1,6 @@
-The USB HID automation module proved that an ESP32-S2 can reliably emulate a keyboard and mouse to run fast, scripted system interactions. 
-This showed how HID devices can be both powerful tools and potential security risks. 
-By automating commands safely in a controlled environment, the project demonstrated how USB-based attacks work, why they are effective, and how defenders can detect or block them. 
-The system highlights the importance of monitoring USB behavior and creates a foundation for future defensive research and educational demonstrations.
+Conclusion — USB HID Automation
+
+The USB HID automation component of this project demonstrated that microcontrollers such as the ESP32-S2 can reliably emulate human-interface devices to execute scripted system interactions. 
+Through the development of a custom HID control framework and its evaluation within a controlled test environment, the study illustrated how unauthorized HID devices may introduce significant security risks, including rapid command injection and system manipulation. 
+The findings emphasize the need for strengthened device-level access policies, USB port monitoring, and user awareness to prevent misuse. 
+Overall, the module provides a safe and reproducible platform for analyzing physical-layer attack vectors and supports the broader goal of advancing defensive cybersecurity research and education.
